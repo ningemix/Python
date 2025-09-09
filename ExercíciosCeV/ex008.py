@@ -1,0 +1,2 @@
+d=float(input('Distância em metros:'))
+print(f'{d:.0f} metros\n{d*10:.0f} decímetros \n{d*100:.0f} centímetros\n{d*1000:.0f} milímetros\n{d/10:.0f} decâmetros\n{d/100:.0f} hectômetros\n{d/1000:.0f} quilômetros')

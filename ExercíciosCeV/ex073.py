@@ -1,0 +1,21 @@
+times = ('Santos', 'América-MG', 'Goiás', 'Avaí', 'Sport', 'Ceará', 'Mirassol', 'Coritiba', 'Vila Nova', 'Novorizontino', 'Chapecoense', 'Operário-PR', 'CRB', 'Ituano', 'Ponte Preta', 'Amazonas', 'Brusque', 'Paysandu', 'Guarani', 'Botafogo-SP')
+
+print ('='*51)
+print (f' Times da Série B: {times}')
+print ('='*51)
+print ()
+print ('='*51)
+print (f' Os 5 primeiros são: {times [0:5]}')
+print ('='*51)
+print ()
+print ('='*51)
+print (f' Os 4 últimos são: {times [-4:]}')
+print ('='*51)
+print ()
+print ('='*51)
+print (f' Times em ordem alfabética: {sorted(times)}')
+print ('='*51)
+
+posição = (times.index('Paysandu'))
+print (f' O Paysandu está na posição {posição+1}°')
+
